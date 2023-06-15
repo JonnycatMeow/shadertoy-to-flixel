@@ -29,4 +29,10 @@ fragCoord / iResolution.xy --> openfl_TextureCoordv
 fragCoord.xy / iResolution.xy --> openfl_TextureCoordv 
 
 
+fragCoord --> openfl_TextureCoordv*openfl_TextureSize (make sure to make it a vec2 if make it kind of like a variable)
+
+
+iResolution --> openfl_TextureSize (make sure to make it a vec2 if make it kind of like a variable)
+
+
 fragColor --> gl_FragColor 
